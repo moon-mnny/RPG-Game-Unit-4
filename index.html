@@ -5,12 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>RPG Game</title>
-    link
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Aladin|Pangolin&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   <body>
+    <header>Fantasy RPG</header>
+    <div class="content">
+      <div class="characters">
+        <button class="character" id="zombie" value="zombie">
+          <p class="name">Zombie</p>
+          <img src="assets/images/zombi.png" />
+          <p class="hp">HP</p>
+        </button>
+        <button class="character" id="dragon">
+          <p class="name">Dragon</p>
+          <img src="assets/images/dragon.png" />
+          <p class="hp">HP</p>
+        </button>
+        <button class="character" id="kraken">
+          <p class="name">Kraken</p>
+          <img src="assets/images/kraken.png" />
+          <p class="hp">HP</p>
+        </button>
+        <button class="character" id="werewolf">
+          <p class="name">Werewolf</p>
+          <img src="assets/images/werewolf.png" />
+          <p class="hp">HP</p>
+        </button>
+        <button class="character" id="chimera">
+          <p class="name">Chimera</p>
+          <img src="assets/images/chimera.png" />
+          <p class="hp">HP</p>
+        </button>
+      </div>
+
+      <div class="user-character">
+        Your Character
+      </div>
+      <div class="enemies">
+        Enemies Available to attack
+      </div>
+      <div class="battleground">
+        Fight Section
+        <button class="attack">Attack</button>
+      </div>
+      <div class="defender">Defender</div>
+    </div>
     <script src="assets/javascript/game.js"></script>
   </body>
 </html>
