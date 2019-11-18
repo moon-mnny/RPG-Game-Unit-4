@@ -16,6 +16,21 @@ div.characters {
   justify-content: center;
   flex-wrap: wrap;
 }
+div.user-character {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+div.enemies {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+div.defender {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 button.character {
   font-family: "Pangolin", cursive;
   width: 120px;
